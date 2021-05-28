@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Housing</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+  </head>
+
+  <body>
+    <header>
+      <div><a href="./index.html"><h1>Hous<span>ing</span></h1></a>        
+      </div>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a class="ab" href="#about">About</a>
+        <a class="bl" href="#blog">Blog</a>
+        <a class="po" href="#portfolio">Portfolio</a>
+        <a class="ag" href="#agents">Agents</a>
+        <a class="co" href="#contact">Contact</a>
+      </nav>
+      <div class="fa fa-bars"></div>
+    </header>
+
+    <section class="carousel">
+      <div class="slideshow-container">
+        <div style="display: block;" class="slides">
+            <img src="./images/b1.jpg"/>
+            <div class="title">Lorem ipsum dolor</div>
+            <p>Quasi quaerat cupiditate nisi facere in laboriosam.</p>
+            <div class="bullet">
+              <span class="dot-active" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        </div>
+        <div class="slides">
+            <img src="./images/b2.jpg"/>
+            <div class="title">Rerum tempus imi</div>
+            <p>Quis quaerat dicta nisi at veniam nobis.</p>
+            <div class="bullet">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot-active" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <div class="slides">
+            <img src="./images/b3.jpg"/>
+            <div class="title">Facilis reprehenderit</div>
+            <p>Excepturi obcaecati magni quam officia voluptatum voluptas.</p>
+            <div class="bullet">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot-active" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <div class="slides">
+            <img src="./images/b4.jpg"/>
+            <div class="title">Voluptum ab teetur</div>
+            <p>Officia officiis totam illo laborum laboriosam.</p>
+            <div class="bullet">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot-active" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        
+      <a class="prev" onclick="plusSlides(-1)"><img src="./images/left-arrow.png"></a>
+      <a class="next" onclick="plusSlides(1)"><img src="./images/right-arrow.png"></a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h1>About</h1>
+      <div class="list">
+        <div class="item">
+          <i class="fa fa-home"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+        </div>
+        <div class="item">
+          <i class="fa fa-key"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+        </div>
+        <div class="item">
+          <i class="fa fa-money"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="content">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed odio consequat, tristique elit sed, molestie nulla. Mauris et quam leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt ut velit id euismod.vulputate turpis porta ex sodales, dignissim hendrerit eros sagittis. Curabitur lacinia dui ut luctus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis</p>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container">        
+        <h1>Stats</h1>
+        <div class="stats-info">
+          <div class="item">
+            <div class="counter">3500</div>
+            <div class="content">clients</div>
+          </div>
+          <div class="item">
+            <div class="counter">650</div>
+            <div class="content">Plans</div>
+          </div>
+          <div class="item">
+            <div class="counter">1021</div>
+            <div class="content">Projects</div>
+          </div>
+          <div class="item">
+            <div class="counter">1010</div>
+            <div class="content">Likes</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <h1>Blog</h1>
+      <div class="container">
+        <div class="item">
+          <div class="img">
+            <img src="./images/g1.jpg" alt="g1">
+          </div>
+          <div class="content">
+            <h1 class="popup-open">Lorem Ipsum Passage</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <button class="popup-open">Read more...</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="./images/g2.jpg" alt="g2">
+          </div>
+          <div class="content">
+            <h1 class="popup-open">Lorem Ipsum Passage</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <button class="popup-open">Read more...</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="./images/g1.jpg" alt="g1">
+          </div>
+          <div class="content">
+            <h1 class="popup-open">Lorem Ipsum Passage</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <button class="popup-open">Read more...</button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="background-opacity"></div>
+      <div class="modal-body">
+        <div class="modal-header">
+          <h1>Housing</h1>
+          <button id="popup-close">X</button>
+        </div>
+        <div class="popup-content">
+          <img src="./images/img2.jpg" alt="#">
+          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="media">
+      <div class="video">
+        <!-- <img src="./images/video.jpg" alt="#"> -->
+        <button><i class="fa fa-play-circle"></i></button>
+      </div>
+      <div class="content">
+        <h1>Get More...</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut minim veniam, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        <button>Read More...</button>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <h1>Portfolio</h1>
+      <div class="list">
+        <div class="item">
+          <img src="./images/img1.jpg" alt="#">
+          <div class="item-hover">
+            <h1>GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/img2.jpg" alt="#">
+          <div class="item-hover">
+            <h1>GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/img3.jpg" alt="#">
+          <div class="item-hover">
+            <h1>GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/img4.jpg" alt="#">
+          <div class="item-hover">
+            <h1>GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/img5.jpg" alt="#">
+          <div class="item-hover">
+            <h1>GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/img6.jpg" alt="#">
+          <div class="item-hover">
+            <h1>GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <h1>Subscribe</h1>
+        <p>consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+        <input type="email" id="email" placeholder="Email">
+        <button>Click</button>
+      </div>      
+    </section>
+
+    <section class="agents">
+      <div class="container">
+        <h1>Our Agents</h1>
+        <div class="list">
+          <div class="item">
+            <img src="./images/t1.jpg" alt="t1">
+            <div class="content">
+              <h1>KAT WALLY</h1>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/t2.jpg" alt="t1">
+            <div class="content">
+              <h1>JOHN MAX</h1>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/t3.jpg" alt="t1">
+            <div class="content">
+              <h1>ROY KENT</h1>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/t4.jpg" alt="t1">
+            <div class="content">
+              <h1>JOY IDSON</h1>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31356.182535283147!2d106.69484213605554!3d10.800858923594097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c798e387bf%3A0x67a251e98cb790e5!2zQ2jhu6MgQsOgIENoaeG7g3U!5e0!3m2!1svi!2s!4v1618048250354!5m2!1svi!2s"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact">
+      <div class="container">	
+        <h1>Contact Us</h1>		
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <div class="form-left">
+              <input type="text" Name="name" placeholder="Name" required="">
+              <input type="text" Name="last name" placeholder="Last Name" required="">
+              <input class="email" type="email" Name="email" placeholder="Email" required="">
+              <input  type="text" Name="phone" placeholder="Phone" required="">
+            </div>
+            <div class="form-right">
+              <textarea placeholder="Message" required=""></textarea>
+              <input type="submit" value="Submit" >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright">&#169; 2017 Housing. All Rights Reserved | Design by <a href="#">W3layouts</a></div>
+      <div class="socialmedia">
+        <ul>
+          <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+          <li><a href="#"><span class="fa fa-rss"></span></a></li>
+          <li><a href="#"><span class="fa fa-vk"></span></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="sidebar">
+      <div class="fa fa-angle-double-right"></div>
+      <div class="navcollapse">
+        <a href="#">
+          <div class="back">
+              <span class="fa fa-arrow-left"></span>
+              <span class="text">Back</span>
+          </div>
+        </a>
+        <a href="#">
+            <div class="download">
+                <span class="fa fa-download"></span>
+                <span class="text">Download</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="buy">
+                <span class="fa fa-shopping-cart"></span>
+                <span class="text">Buy</span>
+            </div>
+        </a>
+      </div>
+    </div>
+    <div class="scrollup"><img src="./images/arrowup.png" alt="#"></div>
+    
+
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    
+  </body>
+</html>
